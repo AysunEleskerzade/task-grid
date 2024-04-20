@@ -1,0 +1,66 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+.qutu{
+    width: 80%;
+    min-height: 500px;
+    margin: 0 auto;
+    display: grid;
+    gap: 2px;
+    grid-template-columns: 2fr 1fr 2fr 4fr 2fr;
+    padding: 40px;
+}
+.qutu > div{
+    display: grid;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    font-size: 30px;
+}
+.qutu1{
+    background-color: rgb(189, 10, 70);
+}
+.qutu2{
+    background-color: rgb(137, 7, 70);
+    grid-row: 1/3;
+    grid-column: 2/4;
+}
+.qutu3{
+    background-color: rgb(233, 113, 133);
+    grid-row: 1/5;
+    grid-column: 4/5;
+    font-size: 30px !important;
+    font-weight: bolder;
+}
+.qutu4{
+    background-color:gold;
+}
+.qutu5{
+    background-color: rgb(7, 110, 7);
+}
+.qutu6{
+    background-color: darkslategrey;
+}
+.qutu7{
+    background-color: olivedrab;
+}
+.qutu8{
+    background-color: rgb(2, 69, 2);
+
+}
+.qutu9{
+    background-color: rgb(9, 188, 188);
+}
+.qutu10{
+    background-color: rgb(14, 176, 89);
+}
+.qutu11{
+    background-color: rgb(126, 32, 214);
+    grid-row: 4/5;
+    grid-column: 1/4;
+}
+.qutu12{
+    background-color: red;
+}
